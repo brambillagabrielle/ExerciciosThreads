@@ -1,7 +1,5 @@
-# ExerciciosListaThreads1
-2022-1/5_Semestre/Sistemas_Operacionais_2/Lista_1_Threads
-
-LISTA DE EXERCÍCIOS SOBRE THREADS
+# LISTA DE EXERCÍCIOS SOBRE THREADS
+[2022/1] [5º Semestre] [Sistemas Operacionais 2] [Lista Exercícios 2]
 
 1) Escreva um programa que imprima os números primos existentes entre 0 e 99999 utilizando threads. Para cada mil valores crie um thread que inicia um novo processo.
 
