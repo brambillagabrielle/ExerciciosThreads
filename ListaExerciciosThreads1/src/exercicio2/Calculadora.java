@@ -31,7 +31,7 @@ public class Calculadora extends Thread {
                     System.out.println("RESULTADO " + this.getName() + ": " + (valor1 - valor2));
                     break;
                 case "MULTIPLICAÇÃO":
-                    System.out.println("RESULTADO " + this.getName() + ": " + (valor1 - valor2));
+                    System.out.println("RESULTADO " + this.getName() + ": " + (valor1 * valor2));
                     break;
                 case "DIVISÃO":
                     if (valor2 == 0)
