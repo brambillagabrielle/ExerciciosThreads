@@ -23,7 +23,7 @@ public class Main {
             entrada = JOptionPane.showInputDialog("Insira o valor 1:"); 
             if(entrada == null)
                 break;  
-            while (true && entrada == null) {
+            while (true && entrada != null) {
                 try {
                     aux = Integer.parseInt(entrada);
                     break;
@@ -39,7 +39,7 @@ public class Main {
             entrada = JOptionPane.showInputDialog("Insira o valor 2:");
             if(entrada == null)
                 break;        
-            while (true && entrada == null) {
+            while (true && entrada != null) {
                 try {
                     aux = Integer.parseInt(entrada);
                     break;
