@@ -23,15 +23,13 @@ public class Main {
             entrada = JOptionPane.showInputDialog("Insira o valor 1:"); 
             if(entrada == null)
                 break;  
-            while (true) {
+            while (true && entrada == null) {
                 try {
                     aux = Integer.parseInt(entrada);
                     break;
                 } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, "Valor inserido invalido\n" + e.getMessage());
                     entrada = JOptionPane.showInputDialog(null, "Insira novamente o valor 1: ");
-                    if(entrada == null)
-                        break;  
                 }
             }
             if(entrada == null)
@@ -41,15 +39,13 @@ public class Main {
             entrada = JOptionPane.showInputDialog("Insira o valor 2:");
             if(entrada == null)
                 break;        
-            while (true) {
+            while (true && entrada == null) {
                 try {
                     aux = Integer.parseInt(entrada);
                     break;
                 } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, "Valor inserido invalido\n" + e.getMessage());
                     entrada = JOptionPane.showInputDialog(null, "Insira novamente o valor 2: ");
-                    if(entrada == null)
-                        break;        
                 }
             }
             if(entrada == null)
